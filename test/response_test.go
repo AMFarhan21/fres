@@ -5,11 +5,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/AMFarhan21/fres"
+	"github.com/AMFarhan21/fres/custom"
 )
 
 func TestResponse(t *testing.T) {
-	types := fres.SuccessResponse{
+	types := custom.SuccessResponse{
 		Success: true,
 		Message: "Success",
 		Data: map[interface{}]interface{}{
