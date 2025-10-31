@@ -1,10 +1,11 @@
 package test
 
 import (
-	"fres"
 	"log"
 	"reflect"
 	"testing"
+
+	"github.com/AMFarhan21/fres"
 )
 
 func TestResponse(t *testing.T) {
